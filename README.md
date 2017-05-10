@@ -22,11 +22,11 @@
  
 <img src="images/s1.png"/>
 
-The first panel shows the top ten AE's by frequency for the specified drug.
+The first panel compares the distributions of AE's for particular drugs against the distribution of AE's for all drugs.
 
 <img src="images/s2.png"/>
 
-The second panel shows the top ten Drugs by frequency for a given AE.
+The second panel shows the top Drugs by frequency for a given AE.
 
 <img src="images/s3.png"/>
 
