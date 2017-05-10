@@ -30,6 +30,10 @@ The second panel shows the top ten Drugs by frequency for a given AE.
 
 <img src="images/shiny3.png"/>
 
+The third panel is a radial network. It contains the ten drugs with the most recorded events, and for each of those drugs, the ten most frequent AE's
+
+<img src="images/shiny6.png"/>
+
 The third panel shows a table of AE's for each drug, ranked by the LLR. The LLR is the log-likelihood ratio statistic for that given drug and AE combination. The LLR is a statistic which expresses how many times more likely the observed data is under one model than the other. In our context, we're using it as a measure of how different the AE distribution for a given drug is compared to all drugs; in other words, do these events indicate that this drug is a plausible cause for high occurrences of an AE or is it just a "normal" occurrence.
 
 The quantity we'd like to have to confirm this is a p-value. The fina version of this project may include bootstrapped p-values for each combination.
